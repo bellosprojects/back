@@ -26,10 +26,10 @@ class GameManager:
         self.sim_task: Optional[asyncio.Task[Any]] = None
 
         # Parámetros
-        self.WAITING_TIME = 10.0
+        self.WAITING_TIME = 40.0
         self.SELECTION_ROUNDS = 3
-        self.SELECTION_TIME = 1.0
-        self.CODING_TIME = 1000.0
+        self.SELECTION_TIME = 8.0
+        self.CODING_TIME = 180.0
         self.PLAYING_TIME = 300.0
         self.ENDING_TIME = 1.0
 
