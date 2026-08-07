@@ -31,7 +31,7 @@ class GameManager:
         self.SELECTION_TIME = 8.0
         self.CODING_TIME = 180.0
         self.PLAYING_TIME = 300.0
-        self.ENDING_TIME = 1.0
+        self.ENDING_TIME = 15.0
 
     # ---------- Métodos públicos ----------
     def get_lobby_users(self) -> List[User]:
