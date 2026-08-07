@@ -1,0 +1,15 @@
+# Core framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# WebSocket support
+websockets==12.0
+
+# Data validation
+pydantic==2.5.0
+
+# For parsing form data (si se usa algún endpoint con multipart)
+python-multipart==0.0.6
+
+# (Opcional) Variables de entorno
+# python-dotenv==1.0.0
